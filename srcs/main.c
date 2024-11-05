@@ -6,7 +6,7 @@
 /*   By: jjaroens <jjaroens@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 10:25:33 by nusamank          #+#    #+#             */
-/*   Updated: 2024/11/05 21:25:43 by jjaroens         ###   ########.fr       */
+/*   Updated: 2024/11/05 21:41:46 by jjaroens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	main(int argc, char **argv)
 	printf("file : %s\n", argv[1]);
 	if (!check_file(argv[1]))
 		return (1);
-	
+	// to check the arguments is valid: based on object && requirement
 	// init_scene(&program, argv[1]);
 
 	// program.display_width = 400;
